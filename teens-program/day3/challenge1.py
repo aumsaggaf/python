@@ -1,21 +1,17 @@
-hot = True
-moderate = False
-cold = False
+weekend = True
+test_sunday = False
 
-soup = False
-watermelon = False
-pizza = False
+if (weekend == True and test_sunday == False):
+    print('We will go out.')
+elif (weekend != True or test_sunday != False):
+    print('We will not go out.')
 
-if hot:
-    watermelon = True
-
-elif moderate:
-    pizza = True
-
-
-elif cold:
-    soup = True
-
-print("soup:", soup)
-print("watermelon:", watermelon)
-print("pizza:", pizza)
+# Extra
+# if (weekend == True and test_sunday == False):
+#     print('We will go out.')
+# elif (weekend != True and test_sunday == False):
+#     print('We will not go out; it is not the weekend.')
+# elif (weekend == True and test_sunday != False):
+#     print('We will not go out; you have a test on sunday.')
+# else:
+#     print('We will not go out; it is not the weekend and you have a test on sunday.')

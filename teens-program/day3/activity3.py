@@ -1,13 +1,24 @@
-number = 10
+grade = input('How much did you score for the test?')
 
-if (number > 0):
-    print('The number ', number,' is positive')
+if int(grade) >= 60:
+    print('Congrats, you succeed!')
 else:
-    print('The number ', number,' is negative')
+    print('Sorry, you failed')
 
-'''number = -10
-
-if (number > 0):
-    print('The number ', number,' is positive')
-else:
-    print('The number ', number,' is negative')'''
+# is_valid = False
+#
+# while is_valid is False:
+#     grade = input('How much did you score for the test?')
+#     try:
+#         if int(grade) >= 0 and int(grade) <= 100:
+#             is_valid = True
+#         else:
+#             print('Please enter a valid number')
+#     except:
+#         print('Please enter a valid number')
+#
+#
+# if int(grade) >= 60:
+#     print('Congrats, you succeed!')
+# else:
+#     print('Sorry, you failed')

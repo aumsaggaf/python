@@ -1,4 +1,7 @@
-# print(’hi’)
-# print (’hi’
-# print(’hi)
-# prin (’hi’)
+#print('hi')
+
+#print ('hi'
+
+#print('hi)
+
+#prin ('hi')

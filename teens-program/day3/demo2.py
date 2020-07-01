@@ -1,5 +1,5 @@
-fruits = ['apple', 'banana', 'orange', 'mango']
+hello_world = "hello" + " " + "world"
+print(hello_world)
 
-my_favourite_fruit = fruits[1]
-
-print(my_favourite_fruit)
+lots_of_hellos = "hello" * 3
+print(lots_of_hellos)
