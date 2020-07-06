@@ -1,3 +1,7 @@
+# Challenge: Recommend a meal based on the weather
+
+# Use the following code to determine what meal to Recommend
+
 hot = True
 moderate = False
 cold = False
@@ -6,12 +10,15 @@ soup = False
 watermelon = False
 pizza = False
 
+# TODO: Write "if condition" for watermelon
 if hot:
     watermelon = True
 
+# TODO: Write "elif condition" for pizza
 elif moderate:
     pizza = True
 
+# TODO: Write "elif condition" for soup
 elif cold:
     soup = True
 

@@ -1,17 +1,8 @@
-weekend = True
-test_sunday = False
+number = 10
 
-if (weekend == True and test_sunday == False):
-    print('We will go out.')
-elif (weekend != True or test_sunday != False):
-    print('We will not go out.')
-
-# Extra
-# if (weekend == True and test_sunday == False):
-#     print('We will go out.')
-# elif (weekend != True and test_sunday == False):
-#     print('We will not go out; it is not the weekend.')
-# elif (weekend == True and test_sunday != False):
-#     print('We will not go out; you have a test on sunday.')
-# else:
-#     print('We will not go out; it is not the weekend and you have a test on sunday.')
+if (number > 0):
+    print('The number is positive')
+elif(number == 0):
+    print('The number is zero')
+else:
+    print('The number is negative')

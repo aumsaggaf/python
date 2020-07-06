@@ -1,24 +1,17 @@
-grade = input('How much did you score for the test?')
+weekend = True
+test_sunday = False
 
-if int(grade) >= 60:
-    print('Congrats, you succeed!')
-else:
-    print('Sorry, you failed')
+if (weekend == True and test_sunday == False):
+    print('We will go out.')
+elif (weekend != True or test_sunday != False):
+    print('We will not go out.')
 
-# is_valid = False
-#
-# while is_valid is False:
-#     grade = input('How much did you score for the test?')
-#     try:
-#         if int(grade) >= 0 and int(grade) <= 100:
-#             is_valid = True
-#         else:
-#             print('Please enter a valid number')
-#     except:
-#         print('Please enter a valid number')
-#
-#
-# if int(grade) >= 60:
-#     print('Congrats, you succeed!')
+# Extra
+# if (weekend == True and test_sunday == False):
+#     print('We will go out.')
+# elif (weekend != True and test_sunday == False):
+#     print('We will not go out; it is not the weekend.')
+# elif (weekend == True and test_sunday != False):
+#     print('We will not go out; you have a test on sunday.')
 # else:
-#     print('Sorry, you failed')
+#     print('We will not go out; it is not the weekend and you have a test on sunday.')
